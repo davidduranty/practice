@@ -17,6 +17,10 @@ const config = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      sans: ['var(--font-geist-sans)'],
+      caption: ["var(--font-caption"],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
