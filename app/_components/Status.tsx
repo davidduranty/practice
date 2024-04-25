@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge"
 export const Status = () => {
     return (
         <Section className="flex max-md:flex-col items-start">
-            <div className="flex-[3] w-full">
+            <div className="flex-[3] w-full mr-4">
                <Card className="flex-[2.75] p-4  flex flex-col gap-2 w-full">
                     <p className="text-lg text-muted-foreground text-slate-700">Side Fun Projects</p>
                     <div className="flex flex-col gap-4">
@@ -36,7 +36,7 @@ export const Status = () => {
                         ))}
                     </div>
                 </Card>
-                <Card className="p-4 flex-1 flex flex-col gap-3">
+                <Card className="p-4 flex-1 flex flex-col gap-3 mt-5">
                     <p className="text-lg text-muted-foreground text-slate-700">Contact me</p>
                     <ContactCard name="David Duranty" image="https://davidduranty.com/moi.jpg" mediumImage="https://tse4.mm.bing.net/th?id=OIP.Ff1a2zx1DnGg5rppyqq-XwHaHa&pid=Api&P=0&h=180" description="25'000"/>
                     <ContactCard name="David Duranty" image="https://davidduranty.com/moi.jpg" mediumImage="https://tse3.mm.bing.net/th?id=OIP.C0KA02FcfjF8XTPWtKzHgQHaHa&pid=Api&P=0&h=180" description="2'000"/>
